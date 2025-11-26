@@ -1,0 +1,282 @@
+﻿<krpano version="1.20.7" title="Blockhaus" showerrors="false" logkey="false">
+
+	<include url="%VIEWER%/plugins/iphone_fullscreen_swipe.xml"/>
+	
+
+	<!-- startup action - load the first scene -->
+	<action name="startup" autorun="onstart">
+		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
+		loadscene(get(startscene), null, MERGE);
+		if(startactions !== null, startactions() );
+	</action>
+	
+	<scene name="scene_360_0010_Panorama" title="360_0010 Panorama" onstart="" thumburl="panos/360_0010_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="90.0" vlookat="-10.0" fovtype="MFOV" fov="130" maxpixelzoom="1.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/360_0010_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/360_0010_Panorama.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2112" />
+		</image>
+
+	</scene>
+	
+	
+	<scene name="scene_360_0004_Panorama" title="360_0004 Panorama" onstart="" thumburl="panos/360_0004_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-90.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="1.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/360_0004_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/360_0004_Panorama.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2112" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_360_0005_Panorama" title="360_0005 Panorama" onstart="" thumburl="panos/360_0005_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="1.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/360_0005_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/360_0005_Panorama.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_360_0006_Panorama" title="360_0006 Panorama" onstart="" thumburl="panos/360_0006_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="1.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/360_0006_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/360_0006_Panorama.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2112" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_360_0007_Panorama" title="360_0007 Panorama" onstart="" thumburl="panos/360_0007_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="180.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="1.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/360_0007_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/360_0007_Panorama.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2112" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_360_0008_Panorama" title="360_0008 Panorama" onstart="" thumburl="panos/360_0008_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="1.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/360_0008_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/360_0008_Panorama.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2112" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_360_0009_Panorama" title="360_0009 Panorama" onstart="" thumburl="panos/360_0009_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="180.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="1.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/360_0009_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/360_0009_Panorama.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2112" />
+		</image>
+
+	</scene>
+
+
+	<scene name="scene_360_0011_Panorama" title="360_0011 Panorama" onstart="" thumburl="panos/360_0011_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="1.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/360_0011_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/360_0011_Panorama.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2176" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_360_0012_Panorama" title="360_0012 Panorama" onstart="" thumburl="panos/360_0012_Panorama.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="1.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/360_0012_Panorama.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/360_0012_Panorama.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+	
+	<style name="depthmap_button" type="text" css="text-align:center;" padding="4 8" mergedalpha="false" bgborder="0 0xFFFFFF 1" bgroundedge="1" bgshadow="0 0 4 0x000000 1.0" ondown="set(bgcolor, 0xDDDDDD);" onup="set(bgcolor, 0xFFFFFF);" />
+	<style name="map-point" url="images/map-point.png" keep="true" align="lefttop" edge="center" scale="0.9" onover="set(scale,1.1);" onout="set(scale,0.9);"  />
+	<style name="map-gps" url="images/HS_GPS.png" keep="true" align="lefttop" edge="bottom" scale="1" enabled="false"  />
+	
+	
+	<layer name="kartecontainer"
+       type="container"      
+       keep="true"       
+       visible="false"
+       enabled="true"
+       handcursor="false"     
+       zorder=""
+       align="left"
+	   y="0"
+       edge=""
+	   children="true"
+       maskchildren="true"
+	   bgcolor="0xDDDDDD" 
+	   bgborder="0 0xFFFFFF 1" bgroundedge="1" bgshadow="-1 -2 4 0x000000 1.0"
+	   bgalpha="0.1" 
+       width="200"
+       height="100%"
+       >
+	   
+	   <layer name="scrollarea"
+       url.flash="plugins/scrollarea.swf"
+       url.html5="plugins/scrollarea.js"
+       align="center" width="200%" height="200%"
+       direction="all"
+       draggable="true"
+	   handcursor="false"
+	   parent="kartecontainer"
+       capturechildren="true"
+       parentmaskchildren="true"
+       mwheel="false"
+       onhover_autoscrolling="false"
+       overscroll="1.0"
+       friction="0.95"
+       acceleration="0.08"
+       returnacceleration="0.15"
+       momentum="0.06"
+       onscroll=""
+       >
+	   
+	   
+		<layer name="karte"
+       type="image"
+       url="images/map.JPG"
+       keep="true"
+       children="true" scalechildren="true" maskchildren="true"
+       visible="true"
+       enabled="true"
+       handcursor="false"     
+       zorder=""
+       align="center"
+       edge=""
+       x="0"
+       y="0"
+       rotate="0.0"
+       width="574"
+       height="2339"
+	   scale="0.7"
+       >
+	   
+		
+		<layer name="hs_gps" style="map-gps" parent="karte" zorder="5" x="59%" y="44%" />
+	   
+		
+		<layer name="hs_Pano_04" style="map-point" parent="karte" zorder="4" x="47.7%" y="51.7%" 
+			onclick="loadscene(scene_360_0004_Panorama, null, MERGE, BLEND(1));
+			set(layer[hs_gps].x,47.7%); set(layer[hs_gps].y,51.7%);"
+			/>
+			
+		<layer name="hs_Pano_05" style="map-point" parent="karte" zorder="4" x="52%" y="49%" 
+			onclick="loadscene(scene_360_0005_Panorama, null, MERGE, BLEND(1));
+			set(layer[hs_gps].x,52%); set(layer[hs_gps].y,49%);"
+			/>
+			
+		<layer name="hs_Pano_06" style="map-point" parent="karte" zorder="4" x="27.6%" y="50.9%" 
+			onclick="loadscene(scene_360_0006_Panorama, null, MERGE, BLEND(1));
+			set(layer[hs_gps].x,27.6%); set(layer[hs_gps].y,50.9%);" 
+			/>
+			
+		<layer name="hs_Pano_07" style="map-point" parent="karte" zorder="4" x="38%" y="55%" 
+			onclick="loadscene(scene_360_0007_Panorama, null, MERGE, BLEND(1));
+			set(layer[hs_gps].x,38%); set(layer[hs_gps].y,55%);" 
+			/>
+			
+		<layer name="hs_Pano_08" style="map-point" parent="karte" zorder="4" x="18%" y="47%" 
+			onclick="loadscene(scene_360_0008_Panorama, null, MERGE, BLEND(1));
+			set(layer[hs_gps].x,18%); set(layer[hs_gps].y,47%);" 
+			/>
+			
+		<layer name="hs_Pano_09" style="map-point" parent="karte" zorder="4" x="36%" y="45%" 
+			onclick="loadscene(scene_360_0009_Panorama, null, MERGE, BLEND(1));
+			set(layer[hs_gps].x,36%); set(layer[hs_gps].y,45%);" 
+			/>
+			
+		<layer name="hs_Pano_10" style="map-point" parent="karte" zorder="4" x="59%" y="44%" 
+			onclick="loadscene(scene_360_0010_Panorama, null, MERGE, BLEND(1));
+			set(layer[hs_gps].x,59%); set(layer[hs_gps].y,44%);" 
+			/>
+			
+		<layer name="hs_Pano_11" style="map-point" parent="karte" zorder="4" x="70%" y="51%" 
+			onclick="loadscene(scene_360_0011_Panorama, null, MERGE, BLEND(1));
+			set(layer[hs_gps].x,70%); set(layer[hs_gps].y,51%);" 
+			/>
+			
+		<layer name="hs_Pano_12" style="map-point" parent="karte" zorder="4" x="63%" y="56%" 
+			onclick="loadscene(scene_360_0012_Panorama, null, MERGE, BLEND(1));
+			set(layer[hs_gps].x,63%); set(layer[hs_gps].y,56%);" 
+			/>
+			
+	     
+	
+	</layer>
+	</layer> 
+	</layer>
+	
+	<layer name="btncontainer"
+       type="container"      
+       keep="true"       
+       visible="true"
+       enabled="true"
+       handcursor="false"     
+       zorder="3"
+       align="bottom"
+       edge=""
+	   children="true"
+       maskchildren="true"
+	   bgcolor="0xDDDDDD" 
+	   bgborder="" bgroundedge="1" bgshadow=""
+	   bgalpha="0.0"
+       width="100%"
+       height="40"
+       >
+			<layer name="BTN_Close_Map" keep="true" style="depthmap_button" html="Close Map" visible="false" parent="btncontainer" zorder="4" align="left" x="20" onclick="action(close_map);" />	
+			<layer name="BTN_Map" keep="true" style="depthmap_button" html="Map" visible="true" parent="btncontainer" zorder="4" align="left" x="20" onclick="action(open_map);" />
+			<layer name="BTN_FS" keep="true" devices="!ios" style="depthmap_button" html="Fullscreen" visible="true" parent="btncontainer" zorder="4" align="right" x="20" onclick="toggle(fullscreen);" />
+	 
+			
+	   </layer>
+	  
+		
+		
+	
+	 <action name="close_map">
+		set(layer[kartecontainer].visible,false);
+		set(layer[BTN_Map].visible,true);
+		set(layer[BTN_Close_Map].visible,false);
+	</action>
+	
+	<action name="open_map">
+		set(layer[kartecontainer].visible,true);
+		set(layer[BTN_Map].visible,false);
+		set(layer[BTN_Close_Map].visible,true);
+	</action>
+
+
+</krpano>
